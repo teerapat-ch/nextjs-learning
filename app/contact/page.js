@@ -1,3 +1,4 @@
+import ContactList from '@/components/contactlist';
 import Form from '@/components/form'
 
 const Contact = () => {
@@ -8,6 +9,8 @@ const Contact = () => {
       </div>
       <div>
         <Form />
+        <hr />
+        <ContactList />
       </div>
     </>
   );
